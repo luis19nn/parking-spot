@@ -8,7 +8,7 @@ Além disso, é preciso criar uma `database` do PostgreSQL no seu computador, co
 
 # Testando
 
-Para testar o projeto, basta utilizar o `Postman` ou o `Insomnia`, para envio de dados à API. Como exemplo de criação de dados, utilizando o método `POST`, temos:
+Para testar o projeto, basta utilizar o `Postman` ou o `Insomnia`, para envio de dados à API. Como exemplo de criação de dados, utilizando o método `POST` e apontando para `http://localhost:8080/parking-spot`, temos:
 ```
 {
   "parkingSpotNumber": "205A",
@@ -18,7 +18,7 @@ Para testar o projeto, basta utilizar o `Postman` ou o `Insomnia`, para envio de
   "colorCar": "black",
   "responsibleName": "Carlos Daniel",
   "apartment": "205",
-  "block": "A",
+  "block": "A"
 }
 ```
 Agora, divirta-se!
